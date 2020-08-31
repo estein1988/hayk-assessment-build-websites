@@ -105,17 +105,31 @@ ul, li {
 }
 
 #main-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+	display: flex;
+	justify-content: space-between;
 }
 
-#post-1, #post-2, #post-3 {
+#post-1 {
+	padding: 10px;
+}
+
+#post-2 {
+	padding: 10px;
+}
+
+#post-3 {
 	padding: 10px;
 }
 
 h3 {
+	display: flex;
+	align-items: center;
 	padding: 15px;
+	font-size: 16pt;
+}
+
+.paragraphs {
+	line-height: 20pt;
 }
 
 footer {
